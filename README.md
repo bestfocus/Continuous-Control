@@ -30,11 +30,11 @@ The code is written in Python 3 and PyTorch. Instructions for installing depende
     ```
 # Instructions
 The instructions for running the code are provided below. 
-1. Replace the notebook Navigation.ipynb in deep-reinforcement-learning/p1_navigation with the code given here and also copy model.py and dqn_agent.py to the same folder.
-2. For Windows, download the file https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip, unzip the file and place the files and folders in the same folder.
+1. Replace the notebook Continuous_Control.ipynb in deep-reinforcement-learning/p2_continuous-control with the code given here and also copy model.py and dqn_agent.py to the same folder.
+2. For Windows 64-bit, download the file https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip, unzip the file and place the folder Reacher_Windows_x86_64 in the same p2_continuous-control folder.
 3. Open Jupyter Notebook.
-4. On Notebook, open Navigation.ipynb and select drlnd in the Kernel.
-5. Run the code in each cell. The results for the weights are stored in the checkpoint.pth file. The rewards per episode are shown in a plot in the Notebook. The environment with bananas viewed from the angle of the agent is shown in another window.
+4. On Notebook, open Continuous_Control.ipynb and select drlnd in the Kernel.
+5. Run the code in each cell. The results for the weights are stored in the checkpoint_actor.pth and checkpoint_critic.pth files. The rewards per episode are shown in a plot in the Notebook. The environment with the double-jointed arm is shown in another window. The training will take about an hour with GPU.
 6. After the goal is reached, the environment is close and the project is completed.
 
 # References
